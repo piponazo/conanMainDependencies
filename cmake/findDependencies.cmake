@@ -6,7 +6,6 @@ endif()
 #conan_set_find_paths()
 include(${CMAKE_BINARY_DIR}/conan_paths.cmake)
 
-
 set(Boost_NO_SYSTEM_PATHS ON)
 set(Boost_DEBUG ON)
 set(Boost_USE_STATIC_LIBS ON)

@@ -13,5 +13,6 @@ class ConanDeps(ConanFile):
 
     def requirements(self):
         self.requires('boost/1.70.0@conan/stable')
+        #self.requires('boost/1.69.0@conan/stable')
         #self.requires('boost/1.67.0@conan/stable')
 
